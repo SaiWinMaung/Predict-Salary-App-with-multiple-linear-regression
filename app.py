@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide", page_title= "Predict Salary App",  page_icon= ':dollar:')
 
 st.title(":dollar: Salary Prediction App")
 
